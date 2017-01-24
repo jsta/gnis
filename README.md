@@ -1,4 +1,4 @@
-# geonames
+# gnis
 
 Just an idea for now.
 
