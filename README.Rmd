@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # gnis
 
-R package to serve: http://www.usgovxml.com/DataService.aspx?ds=GNISXML
+R package to serve: https://geonames.usgs.gov/pls/gnispublic/
 
 ## Installation
 
