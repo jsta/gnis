@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# gnis
+
+R package to serve: http://www.usgovxml.com/DataService.aspx?ds=GNISXML
+
+## Installation
+
+You can install gnis from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("jsta/gnis")
+```
+
+## Usage
+
+```{r load library}
+library(gnis)
+```
+
+```{r example}
+gnis_get(fname = "Lake Michigan", state = "Michigan", ftype = "lake")
+```
