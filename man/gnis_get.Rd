@@ -23,6 +23,7 @@ gnis_get
 \examples{
 \dontrun{
 gnis_get(fname = "Lake Michigan", state = "Michigan", ftype = "lake")
+gnis_get(fname = "Big Lake", state = "Arizona", ftype = "lake")
 }
 }
 
